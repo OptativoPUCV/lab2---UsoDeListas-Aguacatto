@@ -113,6 +113,7 @@ void copia_pila(Stack* P1, Stack* P2)
     {
       int *elem = top(Paux);
       push(P2, elem);
+      push(P1, elem);
       pop(Paux);
     }
 }

@@ -85,3 +85,9 @@ exercises.c:105:10: error: unused variable ‘Paux’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 9546ea2
+Thu 21 Mar 2024 03:06:07 AM UTC: 
+ exercises.c | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ tests:  3|2
+total_score: 40/70
+769525a

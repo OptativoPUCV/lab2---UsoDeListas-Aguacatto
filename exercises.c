@@ -41,9 +41,16 @@ debes reservar memoria para cada elemento que agregues.
 Al finalizar retorna la lista creada.
 */
 
-List* crea_lista() {
-   List* L = create_list();
-   return L;
+List* crea_lista() 
+{
+  List* L = create_list();
+  for(int i = 1; i <= 10; i++)
+    {
+      int *dato = (int*)malloc(sizeof(int));
+      *dato = i;
+      pushBack(L, dato);
+    }
+  return L;
 }
 
 /*
@@ -51,8 +58,10 @@ Ejercicio 2.
 Crea una función que reciba una lista de enteros (int*) y 
 retorne la suma de sus elementos.
 */
-int sumaLista(List *L) {
-   return 0;
+int sumaLista(List *L) 
+{
+  
+   return suma;
 }
 
 /*
@@ -64,7 +73,8 @@ Asume que popCurrent luego de eliminar un elemento se
 posiciona en el elemento anterior.
 */
 
-void eliminaElementos(List*L, int elem){
+void eliminaElementos(List*L, int elem)
+{
 
 }
 
@@ -75,7 +85,8 @@ El orden de ambas pilas se debe mantener.
 Puedes usar una pila auxiliar.
 */
 
-void copia_pila(Stack* P1, Stack* P2) {
+void copia_pila(Stack* P1, Stack* P2) 
+{
 }
 
 /*
@@ -85,7 +96,8 @@ paraéntesis balanceados. Retorna 1 si están balanceados,
 0 en caso contrario.
 */
 
-int parentesisBalanceados(char *cadena) {
+int parentesisBalanceados(char *cadena) 
+{
    return 0;
 }
 

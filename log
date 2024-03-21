@@ -33,3 +33,9 @@ exercises.c:69:16: error: expected expression before ‘List’
       |                ^~~~
 Compilation failed
 afea444
+Thu 21 Mar 2024 02:17:23 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+13fcf28

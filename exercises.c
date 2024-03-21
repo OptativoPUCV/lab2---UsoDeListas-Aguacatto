@@ -66,7 +66,7 @@ int sumaLista(List *L)
     {
       suma += *elemento;
       elemento = next(L);
-      popFront(List *L);
+      popFront(L);
     }
    return suma;
 }

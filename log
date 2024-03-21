@@ -23,3 +23,13 @@ Thu 21 Mar 2024 02:11:01 AM UTC:
  tests:  1|4
 total_score: 10/70
 2dbe656
+Thu 21 Mar 2024 02:17:16 AM UTC: 
+ exercises.c | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:69:16: error: expected expression before ‘List’
+   69 |       popFront(List *L);
+      |                ^~~~
+Compilation failed
+afea444

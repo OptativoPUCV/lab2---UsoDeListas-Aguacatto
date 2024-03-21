@@ -61,7 +61,7 @@ retorne la suma de sus elementos.
 int sumaLista(List *L) 
 {
   
-   return suma;
+   return 0;
 }
 
 /*

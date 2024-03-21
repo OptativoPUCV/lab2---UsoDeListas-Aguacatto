@@ -74,3 +74,14 @@ Thu 21 Mar 2024 02:20:49 AM UTC:
  tests:  3|2
 total_score: 40/70
 fa52774
+Thu 21 Mar 2024 02:27:02 AM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:105:10: error: unused variable ‘Paux’ [-Werror=unused-variable]
+  105 |   Stack* Paux = create_stack();
+      |          ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+9546ea2
